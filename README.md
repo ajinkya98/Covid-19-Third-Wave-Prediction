@@ -45,7 +45,15 @@ As this model predicts the future cases which could happen due to this pandemic,
 
 As seen from the graph above the third wave has been predicted correctly using our LSTM model. On close comparison with the true cases plot for the third wave in India, the wave matches very closely. One of the observations for the prediction is that it is slightly noisy at the peaks, that is because as good as the LSTM model is it has its own drawbacks, LSTM has been replaced with transformer models for time series based models as it can retain even longer sequences and parallelize better on modern day GPUs. Below we show the figure for the true cases plot from google.
 
+![download](https://user-images.githubusercontent.com/32778343/172078669-98a1279f-2243-4505-be33-8d7a661e78e3.png)
 
+## References:
 
-##
+-https://en.wikipedia.org/wiki/Long_short-term_memory
+
+-https://towardsdatascience.com/the-lstm-reference-card-6163ca98ae87
+
+-https://keras.io/api/layers/recurrent_layers/lstm/ 
+
+-https://www.researchgate.net/publication/13853244_Long_Short-term_Memory
 
